@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upload Image Here</title>
+  </head>
+  <body>
+    <h1>Upload Your Image</h1>
+    <form method="post" action="/image" enctype="multipart/form-data">
+      <input
+        type="file"
+        name="file"
+        id="image-upload"
+        accept="image/*"
+        required
+      />
+      <button type="submit">Upload Image</button>
+    </form>
+  </body>
+</html>
